@@ -1,0 +1,17 @@
+{
+    "name": "lemoncube1/15_autoloading",
+    "authors": [
+        {
+            "name": "lemoncube1",
+            "email": "lemonglasgroup@protonmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "./app"
+        }
+    }
+}
